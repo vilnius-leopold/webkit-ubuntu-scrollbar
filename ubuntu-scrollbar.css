@@ -1,0 +1,25 @@
+::-webkit-scrollbar {
+	height: 12px;
+	width: 13px;
+	background:
+		url('assets/icons/button-top.png') no-repeat,
+		url('assets/icons/button-bottom.png') no-repeat bottom,
+		url('assets/icons/scroll-bg.png');
+	}
+::-webkit-scrollbar-thumb:hover {
+	background-image: url('assets/icons/grip.png'), -webkit-gradient(linear, left top, right top, color-stop(0%,#ffffff), color-stop(100%,#edecea));
+}
+::-webkit-scrollbar-thumb {
+	background-image: url('assets/icons/grip.png'), -webkit-gradient(linear, left top, right top, color-stop(0%,#f9f9f9), color-stop(100%,#e4e2e1));
+	background-repeat: no-repeat;
+	background-position: center;
+	border: 1px solid #9c9996;
+	border-radius: 7px;
+}
+::-webkit-scrollbar-corner {
+	background: #000;
+}
+::-webkit-scrollbar-button {
+	width:13px;
+	height:13px;
+}
